@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	min-width: 100%;
+  font-family: 'Arial', 'Hervetica', sans-serif;
+}
+
+.top-line{
+  min-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: #37a14c;
+}
+
+.top-line__text{
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.top-line__icons{
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-line__icons > img{
+  margin: 5px;
+}
